@@ -58,7 +58,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             Text(
-              'Suma dos números fácilmente',
+              'Suma dos números fácilmente\n ***By Jhon Alexander Ramos ***',
               style: TextStyle(
                 fontSize: 16,
                 color: Colors.grey[600],
@@ -105,6 +105,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
       _result = num1 + num2;
     });
   }
+
 
   void _clear() {
     _num1Controller.clear();
