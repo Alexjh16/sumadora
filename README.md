@@ -1,3 +1,2 @@
 # sumadora
-
-A new Flutter project.
+I love GIT BASH!
